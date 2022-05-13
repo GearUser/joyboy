@@ -1,6 +1,5 @@
 from bot.helper_funcs.utils import on_task_complete, add_task
 from bot import (
-    AUTH_USERS,
     DOWNLOAD_LOCATION,
     LOG_CHANNEL,
     data,
