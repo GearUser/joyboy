@@ -1,6 +1,4 @@
 
-    # You can keep this default
-    SESSION_NAME = "AHCompressorBot"
     # AHCompressBot....
     # sucks Dude
     APP_ID = "3845818"
