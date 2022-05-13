@@ -12,7 +12,6 @@ from bot import (
     LOGGER,
     LOG_FILE_ZZGEVC,
     MAX_MESSAGE_LENGTH,
-    AUTH_USERS,
     crf,
     codec,
     resolution,
