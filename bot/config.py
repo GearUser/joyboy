@@ -1,7 +1,7 @@
 
     # AHCompressBot....
     # sucks Dude
-    APP_ID = "3845818"
+    APP_ID = int(3845818))
     API_HASH = "95937bcf6bc0938f263fc7ad96959c6d"
     LOG_CHANNEL = -1001763491746
     UPDATES_CHANNEL = get_config("UPDATES_CHANNEL", None) # Without `@` LOL
