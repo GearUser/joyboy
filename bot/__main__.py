@@ -175,6 +175,12 @@ if __name__ == "__main__" :
          await query.delete()   
          await add_task(message)
             
+    @app.on_message(filters.incoming & (filters.photo))
+    async def help_message(app, message):
+        os.system('rm thumb.jpg')
+        await message.download(file_name='/thumb.jpg')
+        await message.reply_text('Thumbnail Added')
+            
         
     @app.on_message(filters.incoming & filters.command(["cancel", f"cancel@{BOT_USERNAME}"]))
     async def help_message(app, message):
