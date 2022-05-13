@@ -90,8 +90,6 @@ if __name__ == "__main__" :
             OUT = f"I will be using : {cr} crf"
             crf.insert(0, f"{cr}")
             await message.reply_text(OUT)
-        else:
-            await message.reply_text("Error")
             
     @app.on_message(filters.incoming & filters.command(["settings", f"settings@{BOT_USERNAME}"]))
     async def settings(app, message):
