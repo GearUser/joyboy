@@ -8,7 +8,6 @@ class Config(object):
     API_HASH = get_config("API_HASH", "")
     LOG_CHANNEL = get_config("LOG_CHANNEL")
     UPDATES_CHANNEL = get_config("UPDATES_CHANNEL", None) # Without `@` LOL
-# array , simplest method was AUTH_USERS = [] ; AUTH_USERS.append(your telegram id) 🤣
     # array to store the channel ID who are authorized to use the bot
     # dont u fucking remove this id 😤
     TG_BOT_TOKEN = get_config("TG_BOT_TOKEN", "")
