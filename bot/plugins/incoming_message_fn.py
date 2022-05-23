@@ -76,7 +76,7 @@ async def incoming_start_message_f(bot, update):
     #    except Exception:
      #       await bot.send_message(
       #          chat_id=update.chat.id,
-       #         text="Something went Wrong. Contact my [Boss](https://t.me/Nur0ns).",
+       #         text="Something went Wrong. Contact my [Boss](https://t.me/the_pirate_emperor).",
         #        parse_mode="markdown",
          #       disable_web_page_preview=True)
           #  return
@@ -86,7 +86,7 @@ async def incoming_start_message_f(bot, update):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('SOURCE CODE 🤤', url='https://t.me/TheBatmanShan')
+                    InlineKeyboardButton('☠️', url='https://t.me/The_Pirate_Emperor')
                 ]
             ]
         ),
